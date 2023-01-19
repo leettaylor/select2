@@ -222,9 +222,6 @@ define([
         return false;
     }
 
-    // eslint-disable-next-line no-console
-    console.error("🔥 select2!");
-
     var overflowX = el.style.overflowX;
     var overflowY = el.style.overflowY;
 

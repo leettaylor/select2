@@ -62,6 +62,6 @@
     "sass": "^1.56.1"
   },
   "scripts": {
-    "build": "grunt compile"
+    "build": "grunt compile && grunt minify"
   }
 }
