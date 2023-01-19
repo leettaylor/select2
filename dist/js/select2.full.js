@@ -718,7 +718,7 @@ S2.define('select2/utils',[
 
     var $el = $(el);
 
-    if ($el.hasClass("modal") || $el.attr("id") === "ajaxModal") {
+    if ($el.hasClass("modal")) {
         return false;
     }
 
