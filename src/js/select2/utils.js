@@ -217,6 +217,11 @@ define([
     // and was designed to be used with the Sizzle selector engine.
 
     var $el = $(el);
+
+    if ($el.hasClass("modal") || $el.attr("id") === "ajaxModal") {
+        return false;
+    }
+
     var overflowX = el.style.overflowX;
     var overflowY = el.style.overflowY;
 
