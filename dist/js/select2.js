@@ -1,5 +1,5 @@
 /*!
- * Select2 4.0.13
+ * Select2 4.1.0-rc.0
  * https://select2.github.io
  *
  * Released under the MIT license
@@ -721,6 +721,9 @@ S2.define('select2/utils',[
     if ($el.hasClass("modal") || $el.attr("id") === "ajaxModal") {
         return false;
     }
+
+    // eslint-disable-next-line no-console
+    console.error("🔥 select2!");
 
     var overflowX = el.style.overflowX;
     var overflowY = el.style.overflowY;
