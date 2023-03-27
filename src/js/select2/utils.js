@@ -218,7 +218,7 @@ define([
 
     var $el = $(el);
 
-    if ($el.hasClass("modal") || $el.attr("id") === "ajaxModal") {
+    if ($el.hasClass("modal")) {
         return false;
     }
 
